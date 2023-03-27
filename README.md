@@ -24,38 +24,22 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript, Docker and Prisma repository.
 
 ## Installation
 
 ```bash
-$ npm install
+git clone https://github.com/ON5693/prisma-api.git
 ```
 
 ## Running the app
 
 ```bash
-# development
-$ npm run start
+cd prisma-api
 
-# watch mode
-$ npm run start:dev
+chmod +x .docker/entrypoint.sh
 
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+docker-compose up --build
 ```
 
 ## Support

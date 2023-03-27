@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript, Docker and Prisma repository.
+Project in [Nest](https://github.com/nestjs/nest) framework TypeScript repository, Docker and Prisma.
 
 ## Installation
 
